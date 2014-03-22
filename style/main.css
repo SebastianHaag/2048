@@ -2,10 +2,14 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #fafafa;
-  color: #776e65;
+  background: #fff;
+  color: #000;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px; }
+  font-size: 18px; 
+  animation: background-gradient-change linear 6s infinite alternate;
+  -webkit-animation: background-gradient-change linear 6s infinite alternate;
+  -moz-animation: background-gradient-change linear 6s infinite alternate;
+  -o-animation: background-gradient-change linear 6s infinite alternate;}
 
 body {
   margin: 80px 0; }
@@ -56,7 +60,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #dd6d60;
+  background: #9954c1;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -151,7 +155,7 @@ hr {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  background: #aa6040;
+  background: #9954c1;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -498,7 +502,7 @@ hr {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
-    background: #aa6040;
+    background: #9954c1;
     border-radius: 6px;
     width: 280px;
     height: 280px;
